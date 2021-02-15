@@ -25,3 +25,12 @@ Results will look similar to the following:
 
 ![Example 1](examples/img_Lviv.png?raw=true "Example 1")\
 ![Example 2](examples/img_NewYork.png?raw=true "Example 2")
+
+### HTML structure
+Folium automatiacally generates an html file containing multiple layers, with map itself, films' marks and a user location mark.\
+```<div class="leaflet-pane leaflet-map-pane" ... >```\
+This tag is a container for the map itself\
+```<div class="leaflet-control-container">```\
+This tag is a container for the controls.\
+The first one contains multiple `<img>` that form a map, loaded from https://b.tile.openstreetmap.org.\
+The second one contains buttons in `<a>` used for zooming and some other controls.
