@@ -33,5 +33,5 @@ Folium automatiacally generates an html file containing multiple layers, with ma
 This tag is a container for the map itself\
 ```<div class="leaflet-control-container">```\
 This tag is a container for the controls.\
-The first one contains multiple `<img>` that form a map, loaded from https://b.tile.openstreetmap.org.\
+The first one contains multiple `<img>` that form a map, loaded from https://b.tile.openstreetmap.org. \
 The second one contains buttons in `<a>` used for zooming and some other controls.
