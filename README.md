@@ -2,7 +2,8 @@
 
 ## Description
 
-This projects allows user to find films which were filmed nearby
+This projects allows user to find films which were filmed nearby.\
+Takes into account that the movies should be in the same country/region.
 
 ## Installation
 
